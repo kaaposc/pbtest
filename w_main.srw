@@ -20,10 +20,17 @@ boolean resizable = true
 long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
+event ue_greet ( )
 st_1 st_1
 cb_hello cb_hello
 end type
 global w_main w_main
+
+event ue_greet();// Special greeting event
+
+MessageBox ('PBTest', 'Hello world!')
+
+end event
 
 on w_main.create
 this.st_1=create st_1
@@ -69,7 +76,7 @@ string facename = "Arial"
 string text = "Hello world!"
 end type
 
-event clicked;MessageBox ('PBTest', 'Hello world!')
+event clicked;parent.event ue_greet()
 
 end event
 
