@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "pbtest.pbl" "";
+@end;
+@begin Objects
+ "pbtest.sra" "pbtest.pbl";
+ "w_main.srw" "pbtest.pbl";
+@end;
