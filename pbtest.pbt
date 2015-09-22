@@ -3,5 +3,5 @@ Save Format v3.0(19990112)
 @end;
 appname "pbtest";
 applib "pbtest.pbl";
-LibList "pbtest.pbl;..\\..\\PFC_modified\\pfcapp.pbl";
+LibList "pbtest.pbl";
 type "pb";
